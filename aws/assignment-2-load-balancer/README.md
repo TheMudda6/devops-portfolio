@@ -87,7 +87,7 @@ This confirmed that traffic was successfully distributed across both EC2 instanc
 
 Both instances showed as healthy in the target group:
 
-![Target Group Health](screenshots/target-group-health.png)
+![Target Group Health](screenshots/Target-group-health.png)
 
 ---
 
