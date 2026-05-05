@@ -53,7 +53,7 @@ The action failed as expected due to insufficient permissions.
 
 This confirms that IAM policies are correctly restricting access.
 
-![IAM Permission Denied](screenshots/iam-permission-denied.png)
+![IAM Permission Denied](screenshots/access-denied.png)
 
 ---
 
