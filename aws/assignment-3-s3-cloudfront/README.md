@@ -26,7 +26,7 @@ In this project, I deployed a static website using Amazon S3 and improved its pe
 
 * Allowed public read access to objects
 
-### 3. Verified S3 Website
+## 3. Verified S3 Website
 
 * Accessed via S3 website endpoint
 
@@ -42,13 +42,17 @@ In this project, I deployed a static website using Amazon S3 and improved its pe
 
 ---
 
-### 5. Verified CloudFront CDN
+## 5. Verified CloudFront CDN
 
 Accessed the website via CloudFront domain:
 
-![CloudFront Website](screenshots/cloudfront.png)
+![CloudFront Website](screenshots/website-cloudfront.png)
 
 ---
+
+## CloudFront Distribution
+
+![CloudFront Distribution](screenshots/cloudfront-distributions.png)
 
 ## Key Learnings
 
