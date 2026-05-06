@@ -1,1 +1,20 @@
+name: DevOps Portfolio CI
 
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  validate-repo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Display Repository Structure
+        run: ls -R
+
+      - name: CI Validation Complete
+        run: echo "GitHub Actions workflow executed successfully!"
