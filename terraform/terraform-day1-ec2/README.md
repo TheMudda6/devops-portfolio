@@ -1,8 +1,5 @@
 # Terraform Day 1 - EC2 Nginx Deployment
 
-````markdown
-# Terraform Day 1 - EC2 Nginx Deployment
-
 ## Overview
 
 This project demonstrates how to deploy an AWS EC2 instance using Terraform.
@@ -106,5 +103,3 @@ terraform destroy
 * How Security Groups manage traffic
 * How user_data automates server configuration
 * How to safely destroy infrastructure to avoid AWS charges
-
-````
