@@ -1,0 +1,12 @@
+#cloud-config
+
+package_update: true
+
+packages:
+  - nginx
+
+runcmd:
+  - systemctl enable nginx
+  - systemctl start nginx
+  - rm -f /usr/share/nginx/html/index.html
+  - echo "<h1>Terraform Day 2 - Cloud Init Success</h1>" | tee /usr/share/nginx/html/index.html
